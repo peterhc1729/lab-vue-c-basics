@@ -1,4 +1,5 @@
 <template>
+  <!--Iteration 1: Navigationsleiste-->
   <Navbar></Navbar>
   <div>
     <p>
@@ -33,11 +34,13 @@
     <button @click="toggleColor">Farbe wechseln</button>
   </div>
 
+  <!--Iteration 1: Footer-->
   <Footer></Footer>
 </template>
 
 <script setup>
 import { ref, computed } from "vue";
+
 //Iteration 1:
 import Navbar from "./components/Navbar.vue";
 import Footer from "./components/Footer.vue";
